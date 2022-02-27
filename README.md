@@ -30,4 +30,4 @@ I installed MinGW-x64 via [MSYS2](https://www.msys2.org/) (you can opt for x-86 
 
 ### Hello World and run the program
 
-After writing your C++ Hello World (should be a .cpp file), build the program!!! **Terminal > Run Build Task** or $Ctrl+Shift+B. This will create an executable file (.exe) in the same folder of the source code. You can double click on the .exe file or run the program in the terminal ".\your_file_name".
+After writing your C++ Hello World (should be a .cpp file), build the program!!! **Terminal > Run Build Task** or **Ctrl+Shift+B**. This will create an executable file (.exe) in the same folder of the source code. You can double click on the .exe file or run the program in the terminal ".\your_file_name".
