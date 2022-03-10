@@ -1,5 +1,5 @@
 #include <iostream>
-# include <inttypes.h>
+#include <inttypes.h>
 using namespace std;
 
 // A function to print integers
