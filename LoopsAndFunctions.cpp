@@ -15,14 +15,15 @@ int multiply(int a, int b)
 
 // return multiple values workaround
 // using struct
-auto divide(int dividend, int divisor)
+auto divide(int dividend, int divisor, string place)
 {
     struct result
     {
         int quotient;
         int remainder;
+        string place = place;
     };
-    return result{dividend / divisor, dividend % divisor};
+    return result{dividend / divisor, dividend % divisor, place};
 }
 
 // // using tuple C++ 17
@@ -122,12 +123,12 @@ int main()
     add_and_print(3, "Hey print this for me!");
 
     // returning more than 1 value using cout
-    auto div_res = divide(14, 3);
-    cout << "Quotient: " << div_res.quotient << ", Remainder: " << div_res.remainder << endl;
+    auto div_res = divide(14, 3, "Hey");
+    cout << "Quotient: " << div_res.quotient << ", Remainder: " << div_res.remainder << ", Print sth:" << div_res.place << endl;
 
     // or use (what looks like) a tuple
-    auto [quotient, remainder] = divide(14, 3);
-    cout << "Quotient: " << quotient << ", Remainder: " << remainder << endl;
+    auto [quotient, remainder, place] = divide(14, 3, "Hey");
+    cout << "Quotient: " << quotient << ", Remainder: " << remainder << ", Print sth:" << place << endl;
 
     // recursion
     int n, factorial_res;
@@ -135,9 +136,8 @@ int main()
     cin >> n;
     // call the recursion function
     factorial_res = factorial(n);
-    cout << "Factorial of " << n << " = " << factorial_res ;
+    cout << "Factorial of " << n << " = " << factorial_res;
 
     // returns nothing
     return 0;
 }
-
