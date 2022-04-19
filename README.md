@@ -1,5 +1,5 @@
 # CS308-ProgrammingLanguages
-## Intructions to PLP3
+## Intructions to PLP4
 
 The LoopsAndFunctions.cpp program contains example codes on C++ loop statements and simple functions. Examples include multiplying 2 numbers, recursion, splitting a string, etc.
 
