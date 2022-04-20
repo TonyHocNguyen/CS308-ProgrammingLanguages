@@ -1,7 +1,8 @@
 # CS308-ProgrammingLanguages
 
-This is my first try at C++ and the README to this repository will guide you to installing and running C++ on a Windows machine.
+## Instructions to PLP1
 
+This is my first try at C++ and the README to this repository will guide you to installing and running C++ on a Windows machine.
 ### Install a code editor (duh)
 
 I chose Visual Studio Code since this is what I am used to. It is fairly simple to install and quite powerful. Download VS Code through this [link](https://code.visualstudio.com/download) and install.
@@ -38,7 +39,9 @@ C++ was created by [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stro
 
 ### Additional resources for C++ programming
 
-The latest version of C++ is C++17 and I found a comprehensive list of books/resources on [Stackoverflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list). The [second edition](https://www.amazon.com/dp/0134997832) of "A Tour of C++" by Bjarne Stroustrup himself (which is updated for C++17) might be a good start for me. I will look out for more resources later on since I don't have a preference for any good programming book author.## Intructions to PLP2
+The latest version of C++ is C++17 and I found a comprehensive list of books/resources on [Stackoverflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list). The [second edition](https://www.amazon.com/dp/0134997832) of "A Tour of C++" by Bjarne Stroustrup himself (which is updated for C++17) might be a good start for me. I will look out for more resources later on since I don't have a preference for any good programming book author.
+
+## Intructions to PLP2
 
 The DataTypes.cpp program contains example codes on C++ names, types, and bindings. The program walks through how to create variables in some of the common data types with the correct naming conventions. 
 
