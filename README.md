@@ -191,3 +191,14 @@ No. C++ wil shout at you for returning multiple values or something different fr
 
 C++ seems to be pass-by value for primitive types (unless the parameter argument says otherwise) and pass-by pointer (pointer value) for objects like arrays. You can also pass an array by reference. I will look further into this in future revisions.
 
+## Instructions to PLP5
+
+### Does C++ support objects or something similar? Are there naming conventions for objects, instance variables, or functions?
+
+### Does C++ have standard methods for functions that can be used across all objects (toString, compare, etc.) or are there something similar?
+
+### How does interface work (if applicable)? Does C++ support multiple inheritance?
+
+### If inheritance is applicable, how does C++ deal with overloading method names and resolving those calls?
+
+### Anything else important about objects and inheritance in C++ 
