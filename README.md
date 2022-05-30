@@ -1,7 +1,6 @@
 # CS308-ProgrammingLanguages
 
 ## Instructions to PLP1
-
 This is my first try at C++ and the README to this repository will guide you to installing and running C++ on a Windows machine.
 
 ### Install a code editor (duh)
@@ -213,3 +212,4 @@ Inheritance is possible in C++. A subclass can inherit from a base class's attri
 
 ### Anything else important about objects and inheritance in C++ 
 As of now, I have not found a way to implement C++ destructors for explicit calls in the program and try/catch/throw and function overloading does not seem to work as I have expected. 
+After writing your C++ Hello World (should be a .cpp file), build the program!!! **Terminal > Run Build Task** or $Ctrl+Shift+B. This will create an executable file (.exe) in the same folder of the source code. You can double click on the .exe file or run the program in the terminal ".\your_file_name".
