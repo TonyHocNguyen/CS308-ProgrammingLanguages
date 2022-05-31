@@ -21,7 +21,7 @@ I also use a starter package containing the textures, colors, etc. for the game 
 
 ### Future development
 
-* Successfully modified character movement axis bindings.
+* Successfully modified character movement axis bindings. My implementation is in ```PacmanController2.cpp``` and ```PacmanPawn2.cpp```.
 * Adjust character rotations.
 
 ### References
